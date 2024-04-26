@@ -1,0 +1,64 @@
+/* AcademicsForm.css */
+
+.academics-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: #fff;
+  }
+  

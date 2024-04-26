@@ -1,0 +1,58 @@
+/* Grade.css */
+
+.grade-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .grade-table th, .grade-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .grade-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .grade-table tbody tr:last-child td {
+    border-bottom: none; /* Remove border from last row */
+  }
+  
+  .grade-table tbody tr:hover {
+    background-color: #f2f2f2; /* Highlight row on hover */
+  }
+  
+  /* GradeForm.css */
+
+.grade-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .grade-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .grade-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .grade-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .grade-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,2 @@
+_id,name,dateOfBirth,gender,address,phoneNumber,email,parentName,parentAddress,parentPhoneNumber,parentEmail,gradeLevel,section,__v
+662bbad9d8c3e70ccfe99d97,likhitha,2001-12-07T18:30:00.000Z,female,ppm,8500043426,likhi@gmail.com,gurunadham,ppm,7981892735,gurunadham@gmail.com,1,A,0
